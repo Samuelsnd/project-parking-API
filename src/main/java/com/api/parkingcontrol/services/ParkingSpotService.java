@@ -6,6 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
 @Service
 public class ParkingSpotService {
 
@@ -16,6 +20,21 @@ public class ParkingSpotService {
     public ParkingSpotModel save(ParkingSpotModel parkingSpotModel) {
     return repository.save(parkingSpotModel);
     }
+
+    public List<ParkingSpotModel> findAll() {
+        return repository.findAll();
+    }
+
+    public Optional<ParkingSpotModel> findById(UUID id) {
+        return repository.findById(id);
+    }
+
+    @Transactional
+    public void delete(ParkingSpotModel parkingSpotModel) {
+        repository.delete(parkingSpotModel);
+    }
+
+
 
     public boolean existByLicensePlateCar(String licensePlateCar) {
         return repository.existsByLicensePlateCar(licensePlateCar);
