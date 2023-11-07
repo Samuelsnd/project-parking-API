@@ -10,6 +10,9 @@ Utilizando do que tem de mais moderno com o Spring Framework.
 ## Layout 
 ![Projeto_Parking_Spot](https://github.com/Samuelsnd/project-parking-API/assets/95856841/6b832e29-3488-4c0c-97eb-eaff130ca5e2)
 
+![Screenshot_1](https://github.com/Samuelsnd/project-parking-API/assets/95856841/98a524ae-605c-4357-9052-1bd63527f58c)
+
+
 ![vagas estacionamento](https://github.com/Samuelsnd/project-parking-API/assets/95856841/8bb2c398-d203-432a-9ea9-c29baea6aa8b)
 
 # Tecnologias utilizadas
